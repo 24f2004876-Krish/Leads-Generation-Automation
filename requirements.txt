@@ -1,0 +1,11 @@
+﻿# Core dependencies
+python-dotenv>=1.0.0,<2.0.0       # Load .env variables
+requests>=2.31.0,<3.0.0           # HTTP requests for API calls
+
+# Lead Generation Pipeline
+apify-client>=1.0.0,<2.0.0        # Apify actor API client (Google Maps scraper)
+openpyxl>=3.1.0,<4.0.0            # Excel file read/write
+
+# Web UI & Data
+streamlit>=1.30.0,<2.0.0          # Streamlit web interface (app.py)
+pandas>=2.0.0,<3.0.0              # DataFrame handling for Streamlit display
